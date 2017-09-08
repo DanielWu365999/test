@@ -1,0 +1,19 @@
+body{line-height:20px;font-family: Verdana, Geneva,"宋体", Helvetica, sans-serif; font-size:12px;}
+a { color:#26211d; text-decoration: none;}
+a:hover { text-decoration: underline}
+.showpage{width:778px; margin:0 auto; text-align:center;}
+.showpage .flashbox{ width:520px; height:340px; float:left; position:relative; }
+.flashbox .focusNew_out{width:520px; height:340px; position:relative; z-index:2}
+.flashbox .focusNew_out .f_out_txt{ height:50px;-width:520px; display:block; position:absolute; bottom:0; left:0; background-color:#000000; opacity:0.8; color:#d6d6d6; font-size:20px; font-family:"微软雅黑"; line-height:50px; padding:0 150px 0 20px; overflow:hidden}
+.flashbox .focusNew_out .f_out_txt a{color:#d6d6d6; }
+.flashbox .f_tabs{
+	width:140px;
+	height:35px;
+	position:absolute;
+	bottom:15px;
+	right:0px;
+	z-index:100;
+}
+.flashbox .f_tabs span{ width:23px; height:19px; background-color:#474747; float: left; margin-right:3px; text-align:center; color:#f0f0f0; margin-top:15px; cursor:pointer}
+.flashbox .f_tabs span.hover{ height:19px; background-color:#B51017; margin-top:0; padding-top:15px; cursor:pointer}
+
